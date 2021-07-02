@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<%-include("partials/header")-%>
+
+
+<h1><%=title%></h1>
+<p ><%=content%></p>
+<div class="del">
+  <form class="" action="/delete" method="post">
+
+    <button  class=" del btn btn-default  btn-sm" value="<%=id%>" type="submit " name="delButton" >Delete Post</button>
+
+  </form>
+
+</div>
+
+
+
+<%-include("partials/footer")-%>
